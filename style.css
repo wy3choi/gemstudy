@@ -1,0 +1,45 @@
+/* 1. 배경색 바꾸기 */
+body {
+  background-color: #f0f8ff; /* 연한 하늘색 */
+}
+
+h1 {
+  color: darkblue; /* 글자 색상 */
+  text-align: left; /* 가운데 정렬 */
+  font-size: 40px; /* 글자 크기 */
+}
+
+/* 2. 제목 꾸미기 */
+h2 {
+  color: darkblue; /* 글자 색상 */
+  text-align: left; /* 가운데 정렬 */
+  font-size: 35px; /* 글자 크기 */
+}
+
+h3 {
+  color: darkblue; /* 글자 색상 */
+  text-align: left; /* 가운데 정렬 */
+  font-size: 30px; /* 글자 크기 */
+}
+
+/* 3. 목록 예쁘게 만들기 */
+li {
+  color: black;
+  font-weight: bold; /* 굵게 */
+  margin-bottom: 10px; /* 항목 사이 간격 */
+}
+
+p {
+  background-color: white;
+  border: 1px solid black; /* 2픽셀 두께의 검은색 실선 */
+  padding: 10px; /* 안쪽 여백을 줘서 글자가 답답하지 않게! */
+  margin: 10px; /* 박스 바깥에 공간을 둬서 다른 요소와 떨어뜨리기 */
+}
+
+.container {
+  width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #555555;
+}
